@@ -35,9 +35,10 @@ function closeOnClick() {
 
 
 
-const myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
+const myModal = new bootstrap.Modal(document.getElementById('myModal'), options);
 
 
-
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 

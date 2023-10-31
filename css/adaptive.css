@@ -9,6 +9,13 @@
         margin-left: 100px;
         margin-right: 100px;
     }
+    .er{
+        flex-direction: column;
+    }
+    .col-md-7{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
 }
 @media (max-width: 1050px){
     .logo{
@@ -51,6 +58,20 @@
         font-size: 30px;
         line-height: 40px;
     }
+    h1{
+        line-height: 60px;
+        font-size: 50px;
+    }
+    a1{
+        line-height: 30px;
+    }
+    .pup{
+        margin-top: -150px;
+    }
+    .pop{
+        margin-top: 100px;
+      }
+
 
 }
 @media (max-width: 400px){
@@ -59,7 +80,7 @@
     }
     .pod{
         font-size: 15px;
-        line-height: 15px;
+        line-height: 15spx;
     }
 }
 @media (max-width: 350px){
